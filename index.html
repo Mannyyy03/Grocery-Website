@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .Title
+    {
+        text-align: center;
+        font: 100;
+        color: burlywood;
+        
+    }
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Grocery Store Database</title>
+</head>
+<body>
+    <h1 class = "Title">Welcome to the Grocery Store Database</h1>
+    <ul>
+        <li><a href="query1.php"> Items on sale in spring 2020. Relation spans over the tables Item, Sale, and Go_On_Sale. 
+        </a></li>
+        <li><a href="query2.php"> Find the average price for an items categorized as Deli 
+        </a></li>
+        <li><a href="query3.php"> The following is a query statement to return a count of all unique items currently in inventory for sale. 
+        </a></li>
+        <li><a href="query4.php"> Select all items from the item table that have a source type of Goat from Dairy section
+        </a></li>
+        <li><a href="query5.php"> Shows the number of recipe ratings categorized by ratings, could be used in the real world to see popularity of provided recipes. 
+        </a></li>
+          <li><a href="view_stores.php"> Shows the number of recipe ratings categorized by ratings, could be used in the real world to see popularity of provided recipes. 
+        </a></li>
+    </ul>
+    <h2>Try an Ad-Hoc SQL Query</h2>
+<form method="post" action="execute_query.html">
+    <textarea name="sql_query" rows="6" cols="80" placeholder="Enter your SQL query here..." required></textarea><br><br>
+    <input type="submit" name="submit" value="Submit">
+    <input type="reset" value="Clear">
+</form>
+</body>
+</html>
