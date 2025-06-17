@@ -1,40 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-<style>
-    .Title
-    {
-        text-align: center;
-        font: 100;
-        color: burlywood;
-        
-    }
+<html>
+    <head>
+        <title>
+            Emmanuel's Portfolio
+        </title>
+        <link rel ="stylesheet" href="Styles/header.css">
+        <link rel ="stylesheet" href="Styles/project-preview.css">
+        <link rel ="stylesheet" href="Styles/general.css">
 
-</style>
-<head>
-    <meta charset="UTF-8">
-    <title>Grocery Store Database</title>
-</head>
-<body>
-    <h1 class = "Title">Welcome to the Grocery Store Database</h1>
-    <ul>
-        <li><a href="query1.php"> Items on sale in spring 2020. Relation spans over the tables Item, Sale, and Go_On_Sale. 
-        </a></li>
-        <li><a href="query2.php"> Find the average price for an items categorized as Deli 
-        </a></li>
-        <li><a href="query3.php"> The following is a query statement to return a count of all unique items currently in inventory for sale. 
-        </a></li>
-        <li><a href="query4.php"> Select all items from the item table that have a source type of Goat from Dairy section
-        </a></li>
-        <li><a href="query5.php"> Shows the number of recipe ratings categorized by ratings, could be used in the real world to see popularity of provided recipes. 
-        </a></li>
-          <li><a href="view_stores.php"> Shows the number of recipe ratings categorized by ratings, could be used in the real world to see popularity of provided recipes. 
-        </a></li>
-    </ul>
-    <h2>Try an Ad-Hoc SQL Query</h2>
-<form method="post" action="execute_query.html">
-    <textarea name="sql_query" rows="6" cols="80" placeholder="Enter your SQL query here..." required></textarea><br><br>
-    <input type="submit" name="submit" value="Submit">
-    <input type="reset" value="Clear">
-</form>
-</body>
+
+    </head>
+    <body> 
+        <header class ="header">
+            ================================
+                Emmanuel's Portfolio
+            ================================
+        </header>
+        <div class="project-grid">  <!--Box 1-->
+            <div > <!--Box 2-->
+                <div class="preview"> <!--Box 3a-->
+                    <img class = "thumbnail" src = "SVG's/Grocery.svg">
+                    <div class="project-title">
+                        <a href="https://www.example.com" style="color: #00FF00;" >Project 1</a>
+                    </div>
+                </div>
+                <div class="description"> <!--Box 3b-->
+                    This project is a fully functional web-based database application simulating a grocery store system. It showcases backend database integration and frontend presentation.
+                </div>
+             </div>
+        </div>
+    </body>
 </html>

@@ -1,0 +1,27 @@
+.thumbnail
+{
+    height: 200px;
+    filter: brightness(0) saturate(100%) invert(53%) sepia(65%) saturate(2462%) hue-rotate(83deg) brightness(119%) contrast(124%);
+}
+.project-grid
+{
+   display: grid; 
+}
+.preview
+{
+    display: grid;
+    justify-content: center;
+ 
+}
+.project-title
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+   text-align: center;
+   font-size: 25px;
+}
+.description
+{
+    margin-left: 500px;
+    margin-right: 500px;
+}
